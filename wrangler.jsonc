@@ -1,0 +1,11 @@
+{
+  "name": "blog-starter-app",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-08-12",
+  "assets": {
+    "directory": "./out",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "not_found_handling": "404-page"
+  }
+}
