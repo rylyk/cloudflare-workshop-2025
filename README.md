@@ -60,7 +60,7 @@ npm run deploy
 
 ## Editing 
 - Put Markdown files in _posts/, one file per post (e.g. milky-way.md).
-- Put images in public/assets/blog/<slug>/ and author photos in public/assets/blog/authors/.
+- Put images in public/assets/blog/`<slug>`/ and author photos in public/assets/blog/authors/.
 - On save/push, a new build will re-generate static HTML for the home page and each /posts/[slug].
 
 ---
