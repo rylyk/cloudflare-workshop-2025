@@ -28,24 +28,33 @@ Zero servers to manage, edge-cached, and CI/CD-ready with Workers Builds.
 - Cloudflare account + `npx wrangler login`
 
 ### 1) Install
-
+```bash
 npm install
+```
 
 ### 2) Run locally (Next dev server)
+```bash
 npm run dev
 # http://localhost:3000
+```
 
 ### 3) Build the static site
+```bash
 npm run build
 # output goes to ./out
+```
 
 ### 4) Preview the static build on a local Worker
+```bash
 npm run preview
 # http://localhost:8787
+```
 
 ### 5) Deploy
+```bash
 npm run deploy
 # https://<project-name>.workers.dev
+```
 
 ---
 
