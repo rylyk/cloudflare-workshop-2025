@@ -1,7 +1,13 @@
 # Blog Starter (Next.js → Cloudflare Workers, SSG)
 
-A fast, minimal blog starter that renders Markdown posts with **Next.js 15 (App Router)**, exports a **fully static site (SSG)**, and serves it via **Cloudflare Workers + Static Assets**.  
-Zero servers to manage, edge-cached, and CI/CD-ready with Workers Builds.
+A fast, minimal static blog starter that renders Markdown posts with **Next.js 15 (App Router)**, exports a **fully static site (SSG)**, and serves it via **Cloudflare Workers + Static Assets**.  
+Adapted from [Next.js Blog Starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter), and optimized for Cloudflare Workers with CI/CD-Ready [Workers Builds](https://developers.cloudflare.com/workers/platform/deployments/).
+
+---
+
+## Demo
+
+https://blog.acme-studios.org
 
 ---
 
@@ -27,30 +33,36 @@ Zero servers to manage, edge-cached, and CI/CD-ready with Workers Builds.
 - `npm` (or `pnpm/yarn` if you prefer)
 - Cloudflare account + `npx wrangler login`
 
-### 1) Install
+### 1) Clone the repository
+```bash
+git clone https://github.com/vnikhilbuddhavarapu/blog-starter-app.git
+cd blog-starter-app
+```
+
+### 2) Install dependencies
 ```bash
 npm install
 ```
 
-### 2) Run locally (Next dev server)
+### 3) Run locally (Next dev server)
 ```bash
 npm run dev
 # http://localhost:3000
 ```
 
-### 3) Build the static site
+### 4) Build the static site
 ```bash
 npm run build
 # output goes to ./out
 ```
 
-### 4) Preview the static build on a local Worker
+### 5) Preview the static build on a local Worker
 ```bash
 npm run preview
 # http://localhost:8787
 ```
 
-### 5) Deploy
+### 6) Deploy
 ```bash
 npm run deploy
 # https://<project-name>.workers.dev
@@ -64,6 +76,17 @@ npm run deploy
 - On save/push, a new build will re-generate static HTML for the home page and each /posts/[slug].
 
 ---
+
+## CI/CD with Workers Builds
+
+This repo is connected to Workers Builds, so every change pushed to the `main` branch will trigger a new build and deploy to Cloudflare.
+- The build step runs `npm ci && npm run build` to ensure dependencies are installed cleanly and the site is compiled.
+- The deploy step runs `npx wrangler deploy` to deploy the static site to Cloudflare.
+- Adding new blog posts will trigger a new build and deploy.
+- For other branches, you can trigger preview deploys to test changes before merging. 
+
+Always test locally with `npm run dev` or `npm run build` before committing, so CI builds stay clean.
+
 
 ## License
 MIT

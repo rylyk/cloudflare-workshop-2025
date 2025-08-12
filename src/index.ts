@@ -4,7 +4,7 @@ export interface Env {
 
 export default {
   async fetch(request: Request, env: Env, _ctx: ExecutionContext) {
-    console.log("WORKER FETCH", request.url);   // Debug
+
     const url = new URL(request.url);   
     const res = await env.ASSETS.fetch(request);
 
@@ -28,7 +28,7 @@ export default {
       r.headers.set("Cache-Control", "public, max-age=31536000, immutable");
     }
 
-    // Baseline security headers (tune CSP later if you add externals)
+    // Baseline security headers
     r.headers.set("X-Content-Type-Options", "nosniff");
     r.headers.set("Referrer-Policy", "strict-origin-when-cross-origin");
     r.headers.set("X-Frame-Options", "DENY");
@@ -37,15 +37,11 @@ export default {
       "Content-Security-Policy",
       [
         "default-src 'self'",
-        // allow inline scripts needed by Next’s static HTML
         "script-src 'self' 'unsafe-inline'",
-        // style tags from Next's output
         "style-src 'self' 'unsafe-inline'",
-        // tighten these as needed later
         "img-src 'self' data:",
         "font-src 'self' data:",
         "connect-src 'self'",
-        // recommended hardening
         "object-src 'none'",
         "base-uri 'self'",
         "frame-ancestors 'none'"

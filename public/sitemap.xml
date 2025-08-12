@@ -10,35 +10,42 @@
 
   <!-- Blog post example -->
   <url>
-    <loc>https://yourdomain.com/posts/milky-way</loc>
+    <loc>https://blog.acme-studios.org/posts/milky-way</loc>
     <lastmod>2025-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/posts/pale-blue-dot</loc>
+    <loc>https://blog.acme-studios.org/posts/pale-blue-dot</loc>
     <lastmod>2025-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/posts/pillars-of-creation</loc>
+    <loc>https://blog.acme-studios.org/posts/pillars-of-creation</loc>
     <lastmod>2025-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/posts/jwst</loc>
+    <loc>https://blog.acme-studios.org/posts/jwst</loc>
     <lastmod>2025-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/posts/black-holes</loc>
+    <loc>https://blog.acme-studios.org/posts/black-holes</loc>
+    <lastmod>2025-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+   <url>
+    <loc>https://blog.acme-studios.org/posts/fermi-paradox</loc>
     <lastmod>2025-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
