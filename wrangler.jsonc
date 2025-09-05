@@ -1,11 +1,13 @@
 {
-  "name": "blog-starter-app",
-  "main": "src/index.ts",
-  "compatibility_date": "2025-08-12",
-  "assets": {
-    "directory": "./out",
-    "binding": "ASSETS",
-    "run_worker_first": true,
-    "not_found_handling": "404-page"
-  }
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"main": ".open-next/worker.js",
+	"name": "blog-starter-app",
+	"compatibility_date": "2025-08-02",
+	"compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+	"assets": {
+		"directory": ".open-next/assets",
+		"binding": "ASSETS"
+	},
+  "placement": {"mode": "smart"},
+  "observability": {"enabled": true}
 }
