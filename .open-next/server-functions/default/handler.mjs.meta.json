@@ -3065,22 +3065,22 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/page_client-reference-manifest.js": {
-      "bytes": 6372,
+      "bytes": 6497,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js": {
-      "bytes": 6477,
+      "bytes": 6607,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/posts/[slug]/page_client-reference-manifest.js": {
-      "bytes": 6693,
+      "bytes": 6823,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/node_modules/next/dist/server/load-manifest.js": {
-      "bytes": 15420,
+      "bytes": 15455,
       "imports": [
         {
           "path": "fs",
@@ -3100,17 +3100,17 @@
         {
           "path": ".open-next/server-functions/default/.next/server/app/page_client-reference-manifest.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-demos/blog-starter-app/.open-next/server-functions/default/.next/server/app/page_client-reference-manifest.js"
+          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/app/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-demos/blog-starter-app/.open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js"
+          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/posts/[slug]/page_client-reference-manifest.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-demos/blog-starter-app/.open-next/server-functions/default/.next/server/app/posts/[slug]/page_client-reference-manifest.js"
+          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/app/posts/[slug]/page_client-reference-manifest.js"
         }
       ],
       "format": "cjs"
@@ -3132,12 +3132,12 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/187.js": {
-      "bytes": 258424,
+      "bytes": 258434,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/221.js": {
-      "bytes": 223146,
+      "bytes": 223181,
       "imports": [],
       "format": "cjs"
     },
@@ -3560,7 +3560,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/_not-found/page.js": {
-      "bytes": 7468,
+      "bytes": 7483,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
@@ -3596,7 +3596,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/page.js": {
-      "bytes": 11657,
+      "bytes": 11681,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
@@ -3642,7 +3642,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/posts/[slug]/page.js": {
-      "bytes": 183957,
+      "bytes": 183982,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
@@ -3703,7 +3703,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/node_modules/next/dist/server/require.js": {
-      "bytes": 21192,
+      "bytes": 21222,
       "imports": [
         {
           "path": "path",
@@ -3753,32 +3753,32 @@
         {
           "path": ".open-next/server-functions/default/.next/server/pages/_app.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-demos/blog-starter-app/.open-next/server-functions/default/.next/server/pages/_app.js"
+          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/pages/_app.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/pages/_error.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-demos/blog-starter-app/.open-next/server-functions/default/.next/server/pages/_error.js"
+          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/pages/_error.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/pages/_document.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-demos/blog-starter-app/.open-next/server-functions/default/.next/server/pages/_document.js"
+          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/pages/_document.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/_not-found/page.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-demos/blog-starter-app/.open-next/server-functions/default/.next/server/app/_not-found/page.js"
+          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/app/_not-found/page.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/page.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-demos/blog-starter-app/.open-next/server-functions/default/.next/server/app/page.js"
+          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/app/page.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/posts/[slug]/page.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-demos/blog-starter-app/.open-next/server-functions/default/.next/server/app/posts/[slug]/page.js"
+          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/app/posts/[slug]/page.js"
         }
       ],
       "format": "cjs"
@@ -4091,22 +4091,22 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/node_modules/next/dist/server/lib/module-loader/node-module-loader.js": {
-      "bytes": 980,
+      "bytes": 995,
       "imports": [
         {
           "path": ".open-next/server-functions/default/.next/server/pages/_app.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-demos/blog-starter-app/.open-next/server-functions/default/.next/server/pages/_app.js"
+          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/pages/_app.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/pages/_error.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-demos/blog-starter-app/.open-next/server-functions/default/.next/server/pages/_error.js"
+          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/pages/_error.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/pages/_document.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-demos/blog-starter-app/.open-next/server-functions/default/.next/server/pages/_document.js"
+          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/pages/_document.js"
         }
       ],
       "format": "cjs"
@@ -5305,7 +5305,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/node_modules/next/dist/server/next-server.js": {
-      "bytes": 45706,
+      "bytes": 45711,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/server/node-environment.js",
@@ -5585,7 +5585,7 @@
         {
           "path": ".open-next/server-functions/default/cache.cjs",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-demos/blog-starter-app/.open-next/server-functions/default/cache.cjs"
+          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/cache.cjs"
         },
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/experimental/testmode/server.js",
@@ -5627,7 +5627,7 @@
       "format": "esm"
     },
     ".open-next/server-functions/default/index.mjs": {
-      "bytes": 72891,
+      "bytes": 72901,
       "imports": [
         {
           "path": "node:module",
@@ -6805,16 +6805,16 @@
           "bytesInOutput": 589
         },
         ".open-next/server-functions/default/.next/server/app/page_client-reference-manifest.js": {
-          "bytesInOutput": 5969
+          "bytesInOutput": 6094
         },
         ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js": {
-          "bytesInOutput": 6086
+          "bytesInOutput": 6216
         },
         ".open-next/server-functions/default/.next/server/app/posts/[slug]/page_client-reference-manifest.js": {
-          "bytesInOutput": 6304
+          "bytesInOutput": 6434
         },
         ".open-next/server-functions/default/node_modules/next/dist/server/load-manifest.js": {
-          "bytesInOutput": 13364
+          "bytesInOutput": 13384
         },
         ".open-next/server-functions/default/node_modules/react/cjs/react-jsx-runtime.production.js": {
           "bytesInOutput": 744
@@ -6823,10 +6823,10 @@
           "bytesInOutput": 197
         },
         ".open-next/server-functions/default/.next/server/chunks/187.js": {
-          "bytesInOutput": 269178
+          "bytesInOutput": 269188
         },
         ".open-next/server-functions/default/.next/server/chunks/221.js": {
-          "bytesInOutput": 231029
+          "bytesInOutput": 231064
         },
         ".open-next/server-functions/default/.next/server/chunks/66.js": {
           "bytesInOutput": 69298
@@ -6898,13 +6898,13 @@
           "bytesInOutput": 434376
         },
         ".open-next/server-functions/default/.next/server/app/_not-found/page.js": {
-          "bytesInOutput": 7670
+          "bytesInOutput": 7685
         },
         ".open-next/server-functions/default/.next/server/app/page.js": {
-          "bytesInOutput": 12062
+          "bytesInOutput": 12086
         },
         ".open-next/server-functions/default/.next/server/app/posts/[slug]/page.js": {
-          "bytesInOutput": 206311
+          "bytesInOutput": 206336
         },
         ".open-next/server-functions/default/node_modules/next/dist/server/require.js": {
           "bytesInOutput": 18058
@@ -7180,10 +7180,10 @@
           "bytesInOutput": 8189
         },
         ".open-next/server-functions/default/index.mjs": {
-          "bytesInOutput": 50720
+          "bytesInOutput": 50730
         }
       },
-      "bytes": 2907021
+      "bytes": 2907545
     }
   }
 }
