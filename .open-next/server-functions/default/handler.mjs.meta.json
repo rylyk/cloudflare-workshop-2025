@@ -3080,7 +3080,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/node_modules/next/dist/server/load-manifest.js": {
-      "bytes": 15455,
+      "bytes": 15699,
       "imports": [
         {
           "path": "fs",
@@ -6814,7 +6814,7 @@
           "bytesInOutput": 6434
         },
         ".open-next/server-functions/default/node_modules/next/dist/server/load-manifest.js": {
-          "bytesInOutput": 13384
+          "bytesInOutput": 13607
         },
         ".open-next/server-functions/default/node_modules/react/cjs/react-jsx-runtime.production.js": {
           "bytesInOutput": 744
@@ -7183,7 +7183,7 @@
           "bytesInOutput": 50730
         }
       },
-      "bytes": 2907545
+      "bytes": 2907768
     }
   }
 }

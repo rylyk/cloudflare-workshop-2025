@@ -35,8 +35,8 @@ https://blog.acme-studios.org
 
 ### 1) Clone the repository
 ```bash
-git clone https://github.com/vnikhilbuddhavarapu/blog-starter-app.git
-cd blog-starter-app
+git clone https://github.com/vnikhilbuddhavarapu/nextjs-blog-starter.git
+cd nextjs-blog-starter
 ```
 
 ### 2) Install dependencies
@@ -50,22 +50,16 @@ npm run dev
 # http://localhost:3000
 ```
 
-### 4) Build the static site
-```bash
-npm run build
-# output goes to ./out
-```
-
-### 5) Preview the static build on a local Worker
+### 4) Preview the static build on a local Worker
 ```bash
 npm run preview
 # http://localhost:8787
 ```
 
-### 6) Deploy
+### 5) Deploy
 ```bash
 npm run deploy
-# https://<project-name>.workers.dev
+# https://<project-name>.<account-name>workers.dev
 ```
 
 ---
@@ -80,12 +74,12 @@ npm run deploy
 ## CI/CD with Workers Builds
 
 This repo is connected to Workers Builds, so every change pushed to the `main` branch will trigger a new build and deploy to Cloudflare.
-- The build step runs `npm ci && npm run build` to ensure dependencies are installed cleanly and the site is compiled.
-- The deploy step runs `npx wrangler deploy` to deploy the static site to Cloudflare.
+- The build step runs `npx opennextjs-cloudflare build` to ensure dependencies are installed cleanly and the site is compiled.
+- The deploy step runs `npx opennextjs-cloudflare deploy` to deploy the static site to Cloudflare.
 - Adding new blog posts will trigger a new build and deploy.
 - For other branches, you can trigger preview deploys to test changes before merging. 
 
-Always test locally with `npm run dev` or `npm run build` before committing, so CI builds stay clean.
+Always test locally with `npm run dev` or `npm run preview` before committing, so CI builds stay clean.
 
 
 ## License
