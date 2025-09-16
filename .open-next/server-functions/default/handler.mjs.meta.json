@@ -3065,22 +3065,22 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/page_client-reference-manifest.js": {
-      "bytes": 6497,
+      "bytes": 6297,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js": {
-      "bytes": 6607,
+      "bytes": 6399,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/posts/[slug]/page_client-reference-manifest.js": {
-      "bytes": 6823,
+      "bytes": 6615,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/node_modules/next/dist/server/load-manifest.js": {
-      "bytes": 15699,
+      "bytes": 15643,
       "imports": [
         {
           "path": "fs",
@@ -3100,17 +3100,17 @@
         {
           "path": ".open-next/server-functions/default/.next/server/app/page_client-reference-manifest.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/app/page_client-reference-manifest.js"
+          "original": "/Users/kmanseau/src/github.com/rylyk/cloudflare-workshop-2025/.open-next/server-functions/default/.next/server/app/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js"
+          "original": "/Users/kmanseau/src/github.com/rylyk/cloudflare-workshop-2025/.open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/posts/[slug]/page_client-reference-manifest.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/app/posts/[slug]/page_client-reference-manifest.js"
+          "original": "/Users/kmanseau/src/github.com/rylyk/cloudflare-workshop-2025/.open-next/server-functions/default/.next/server/app/posts/[slug]/page_client-reference-manifest.js"
         }
       ],
       "format": "cjs"
@@ -3132,12 +3132,12 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/187.js": {
-      "bytes": 258434,
+      "bytes": 258418,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/221.js": {
-      "bytes": 223181,
+      "bytes": 223125,
       "imports": [],
       "format": "cjs"
     },
@@ -3560,7 +3560,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/_not-found/page.js": {
-      "bytes": 7483,
+      "bytes": 7459,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
@@ -3596,7 +3596,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/page.js": {
-      "bytes": 11681,
+      "bytes": 11642,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
@@ -3642,7 +3642,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/posts/[slug]/page.js": {
-      "bytes": 183982,
+      "bytes": 183942,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
@@ -3703,7 +3703,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/node_modules/next/dist/server/require.js": {
-      "bytes": 21222,
+      "bytes": 21174,
       "imports": [
         {
           "path": "path",
@@ -3753,32 +3753,32 @@
         {
           "path": ".open-next/server-functions/default/.next/server/pages/_app.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/pages/_app.js"
+          "original": "/Users/kmanseau/src/github.com/rylyk/cloudflare-workshop-2025/.open-next/server-functions/default/.next/server/pages/_app.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/pages/_error.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/pages/_error.js"
+          "original": "/Users/kmanseau/src/github.com/rylyk/cloudflare-workshop-2025/.open-next/server-functions/default/.next/server/pages/_error.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/pages/_document.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/pages/_document.js"
+          "original": "/Users/kmanseau/src/github.com/rylyk/cloudflare-workshop-2025/.open-next/server-functions/default/.next/server/pages/_document.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/_not-found/page.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/app/_not-found/page.js"
+          "original": "/Users/kmanseau/src/github.com/rylyk/cloudflare-workshop-2025/.open-next/server-functions/default/.next/server/app/_not-found/page.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/page.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/app/page.js"
+          "original": "/Users/kmanseau/src/github.com/rylyk/cloudflare-workshop-2025/.open-next/server-functions/default/.next/server/app/page.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/posts/[slug]/page.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/app/posts/[slug]/page.js"
+          "original": "/Users/kmanseau/src/github.com/rylyk/cloudflare-workshop-2025/.open-next/server-functions/default/.next/server/app/posts/[slug]/page.js"
         }
       ],
       "format": "cjs"
@@ -4091,22 +4091,22 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/node_modules/next/dist/server/lib/module-loader/node-module-loader.js": {
-      "bytes": 995,
+      "bytes": 971,
       "imports": [
         {
           "path": ".open-next/server-functions/default/.next/server/pages/_app.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/pages/_app.js"
+          "original": "/Users/kmanseau/src/github.com/rylyk/cloudflare-workshop-2025/.open-next/server-functions/default/.next/server/pages/_app.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/pages/_error.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/pages/_error.js"
+          "original": "/Users/kmanseau/src/github.com/rylyk/cloudflare-workshop-2025/.open-next/server-functions/default/.next/server/pages/_error.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/pages/_document.js",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/.next/server/pages/_document.js"
+          "original": "/Users/kmanseau/src/github.com/rylyk/cloudflare-workshop-2025/.open-next/server-functions/default/.next/server/pages/_document.js"
         }
       ],
       "format": "cjs"
@@ -5305,7 +5305,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/node_modules/next/dist/server/next-server.js": {
-      "bytes": 45711,
+      "bytes": 45703,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/server/node-environment.js",
@@ -5585,7 +5585,7 @@
         {
           "path": ".open-next/server-functions/default/cache.cjs",
           "kind": "require-call",
-          "original": "/Users/nbuddhavarapu/Documents/peer-point-user-group/blog-starter-app/.open-next/server-functions/default/cache.cjs"
+          "original": "/Users/kmanseau/src/github.com/rylyk/cloudflare-workshop-2025/.open-next/server-functions/default/cache.cjs"
         },
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/experimental/testmode/server.js",
@@ -5627,7 +5627,7 @@
       "format": "esm"
     },
     ".open-next/server-functions/default/index.mjs": {
-      "bytes": 72901,
+      "bytes": 72885,
       "imports": [
         {
           "path": "node:module",
@@ -6805,16 +6805,16 @@
           "bytesInOutput": 589
         },
         ".open-next/server-functions/default/.next/server/app/page_client-reference-manifest.js": {
-          "bytesInOutput": 6094
+          "bytesInOutput": 5894
         },
         ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js": {
-          "bytesInOutput": 6216
+          "bytesInOutput": 6008
         },
         ".open-next/server-functions/default/.next/server/app/posts/[slug]/page_client-reference-manifest.js": {
-          "bytesInOutput": 6434
+          "bytesInOutput": 6226
         },
         ".open-next/server-functions/default/node_modules/next/dist/server/load-manifest.js": {
-          "bytesInOutput": 13607
+          "bytesInOutput": 13575
         },
         ".open-next/server-functions/default/node_modules/react/cjs/react-jsx-runtime.production.js": {
           "bytesInOutput": 744
@@ -6823,10 +6823,10 @@
           "bytesInOutput": 197
         },
         ".open-next/server-functions/default/.next/server/chunks/187.js": {
-          "bytesInOutput": 269188
+          "bytesInOutput": 269172
         },
         ".open-next/server-functions/default/.next/server/chunks/221.js": {
-          "bytesInOutput": 231064
+          "bytesInOutput": 231008
         },
         ".open-next/server-functions/default/.next/server/chunks/66.js": {
           "bytesInOutput": 69298
@@ -6898,13 +6898,13 @@
           "bytesInOutput": 434376
         },
         ".open-next/server-functions/default/.next/server/app/_not-found/page.js": {
-          "bytesInOutput": 7685
+          "bytesInOutput": 7661
         },
         ".open-next/server-functions/default/.next/server/app/page.js": {
-          "bytesInOutput": 12086
+          "bytesInOutput": 12047
         },
         ".open-next/server-functions/default/.next/server/app/posts/[slug]/page.js": {
-          "bytesInOutput": 206336
+          "bytesInOutput": 206296
         },
         ".open-next/server-functions/default/node_modules/next/dist/server/require.js": {
           "bytesInOutput": 18058
@@ -7180,10 +7180,10 @@
           "bytesInOutput": 8189
         },
         ".open-next/server-functions/default/index.mjs": {
-          "bytesInOutput": 50730
+          "bytesInOutput": 50714
         }
       },
-      "bytes": 2907768
+      "bytes": 2906929
     }
   }
 }
